@@ -16,6 +16,10 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/orders/view">Pregled <span class="sr-only">(current)</span></a></li>
         <li><a href="/orders/take_order">Unesi</a></li>
+        <li><a href="/navigation">Navigacija</a></li>
+        <li><button class="js-push-button btn btn-info" disabled> 
+            Enable Push Messages  
+        </li></button>
         <li class="dropdown hidden">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -29,7 +33,7 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form navbar-left hidden" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
